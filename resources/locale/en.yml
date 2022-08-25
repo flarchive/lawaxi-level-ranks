@@ -1,0 +1,69 @@
+lawaxi-level-ranks:
+  email:
+    verification:
+      subject: 您的认证信息已变更
+      body: |
+          您的认证信息已经变更为: {display}
+  notification:
+    verification:
+      icon: fas fa-carrot
+      label: 认证通知
+      content: 您的认证信息已变更
+  admin:
+    settings:
+      address: 资源存储网址
+      payCode: 付款码网址
+      studentID_example: 学生卡示例图网址
+      studentID_maxSize: 学生卡照片最大大小（KB）
+    edit_user:
+      studentID: 学号(学生卡)
+      studentID_confirm: 审核通过
+    permission:
+      view_studentID: 查看用户学号(学生卡)
+  forum:
+    userUtil:
+      currentTheme: 当前主题
+      currentTheme2: 当前主题序号
+      hasTheme: 拥有的主题
+      vip: '充值 (六币余额: {balance}, 累计: {vip})'
+      vip2: 新增到该会员账号中的六币数目
+      verification: 更改认证信息
+      verification2: 认证信息
+    verification:
+      display: ' 个人认证：{ver}'
+    team:
+      display: '{team}届'
+    settings:
+      vn_icon: 'fas fa-pencil-alt'
+      vn_label: '认证信息被更改时'
+      studentID_button: 学号认证(通过学生卡)
+      sc1: '学号(学生卡)'
+      sc_admin: '待审'
+      sc_admin_title: '学号认证'
+      transferBalance: 转账
+    chooseModal:
+      header: 切换主题
+      title: 切换主题
+      top: 您可以通过本功能进行社区主题的切换。社区全部主题按序排列，绿色为您拥有的主题，点击穿戴，其他按钮点击申请购买(自动扣费)。
+      bottom: '当前的主题功能仅限头像框，未来的更新不会影响您主题的所有权，功能只会更好不会更坏。购买方式：向下方收款码转账，备注您的ID，非优惠期人民币:六币汇率1:10，站长将人工为您服务，人工兑汇，取整计算。您的ID: {id}，六币余额: {balance}.'
+    theme:
+      showFormat1: '{title}({price}六币)'
+      showFormat2: '{title}'
+      defaultTitle: 未知主题{id}
+      defaultIcon: fas fa-leaf
+      defaultIconColor: gray
+    transferBalance:
+      title: '转账给 {name} (id: {id})'
+      amount: '请输入转账金额 (您余额 {balance} 六币)'
+      amount2: 金额
+      submit: 发送
+    student_confirmation:
+      title: '上传学生卡照片以核对学号'
+      notice: '最大图片大小：{size}。您可以通过微信发送图片再下载的方式缩小图片大小。'
+      feedback:
+        success: '上传成功，请等待审核'
+        error: '请上传符合规定的图片，仅支持jpeg, jpg, png, bmp格式'
+      alert_message0: '【账号激活步骤2】请尽快在设置中完成学号认证(通过学生卡)，您可以阅读<a href="https://lawaxi.net/d/184">《总法》</a>了解本站针对个人信息保护的相关规定。'
+      alert_message1: '【账号激活步骤3】您的学生卡登记已经提交，尚未通过审核，请耐心等待，如非开学季等注册频繁时段，请联系猫人 lawaxilawaxi@gmail.com。'
+      alert_button: 立即认证
+      register_notice: 提示：每个账号在注册后都需经过邮箱验证和学号(学生卡)验证才可使用，注册即表明您同意<a href="https://lawaxi.net/d/184">《总法》</a>及其他社区规范内容。
