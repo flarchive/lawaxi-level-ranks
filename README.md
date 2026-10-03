@@ -2,13 +2,15 @@
 
 > **Read-only archive of released versions of lawaxi/level-ranks.** Not for installation: use [Packagist](https://packagist.org/packages/lawaxi/level-ranks) or the [upstream repository](https://github.com/Lawaxi/level-rank).
 
-**0** versions archived · Latest: [`10.5.2`](https://github.com/flarchive/lawaxi-level-ranks/tree/archive/v10.5.2) · License: `MIT` · Flarum: `^1.0.2`
+**3** versions archived · Latest: [`10.5.2`](https://github.com/flarchive/lawaxi-level-ranks/tree/archive/v10.5.2) · License: `MIT` · Flarum: `^1.0.2`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `10.3` | 2022-08-25 | `^1.0.2` | [Browse](https://github.com/flarchive/lawaxi-level-ranks/tree/archive/v10.3) |
+| `10.4` | 2022-08-25 | `^1.0.2` | [Browse](https://github.com/flarchive/lawaxi-level-ranks/tree/archive/v10.4) |
+| `10.5.2` | 2022-08-29 | `^1.0.2` | [Browse](https://github.com/flarchive/lawaxi-level-ranks/tree/archive/v10.5.2) |
 
 Catalog entry: [packages/lawaxi-level-ranks.json](https://github.com/flarchive/archive-index/blob/main/packages/lawaxi-level-ranks.json)
 
